@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>org.CS474.Emily_Lin_HW2</id>
+    <name>DePaCoGe</name>
+    <vendor email="support@CS474.com" url="http://www.CS474.com">CS474</vendor>
+
+    <description><![CDATA[
+    The Design Pattern Code Generator Plugin
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <toolWindow id="Design Pattern Code Generator" anchor="right"
+                    factoryClass="MyToolWindowFactory"/>
+    </extensions>
+
+    <!--    <actions>-->
+    <!--        &lt;!&ndash; Add your actions here &ndash;&gt;-->
+    <!--        <group id="MyToolWindowFactory" text="Design Pattern Code Generator" description="generate the design pattern">-->
+    <!--            <add-to-group group-id="ToolsMenu" />-->
+    <!--            <action class="AFAction" id="afAction" text="Abstract Factory" />-->
+    <!--        </group>-->
+    <!--    </actions>-->
+</idea-plugin>
